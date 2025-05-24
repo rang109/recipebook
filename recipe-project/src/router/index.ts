@@ -19,6 +19,21 @@ const router = createRouter({
       name: 'add recipe form',
       component: () => import('../views/AddRecipeView.vue'),
     },
+    {
+      path: '/recipe/:id',
+      name: 'recipe details',
+      component: () => import('../views/RecipeDetailsView.vue'),
+    },
+    {
+      path: '/favorites',
+      name: 'favorites',
+      component: () => import('../views/FavoritesView.vue'),
+    },
+    {
+      path: '/edit-recipe',
+      name: 'edit recipe',
+      component: () => import('../views/EditRecipeView.vue'),
+    },
   ],
 })
 
