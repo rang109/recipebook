@@ -62,6 +62,7 @@ A many-to-many relationship between Recipes and Ingredients.
 
 ## 🛠️ Technologies Used
 
-- **ERD**: Designed using a UML tool
-- **Backend**: (Optional) Django / Flask / Node.js (depending on your stack)
-- **Database**: SQLite / PostgreSQL / MySQL
+- **ERD**: Designed using Lucidchart
+- **Backend**: Django
+- **Fronted**: vuejs
+- **Database**: SQLite
